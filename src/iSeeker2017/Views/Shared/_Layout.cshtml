@@ -7,8 +7,9 @@
 <body style="width: 1024px; margin: 0px;">
     <header style="background-color: slategray; color: white; padding: 10px;">
         <h1> iServiceSeeker - 2017</h1>
-    <div style="text-align: right">
-        @Html.ActionLink("Sign On", "SignIn", "Account",null, new { style="text-decoration: none; font-weight: bold; color: white"})
+    <div style="text-align: right">Welcome user  
+        |@Html.ActionLink("Home", "Index", "Home", null, new { style = "text-decoration: none; font-weight: bold; color: white" })
+        |@Html.ActionLink("Sign On", "SignIn", "Account",null, new { style="text-decoration: none; font-weight: bold; color: white"})
         |@Html.ActionLink("Projects", "Index", "Project", null, new { style = "text-decoration: none; font-weight: bold; color: white" })
     </div>
     </header>
