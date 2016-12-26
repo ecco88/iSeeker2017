@@ -15,5 +15,10 @@ namespace iSeeker2017.Controllers
         {
             return View();
         }
+        [Route("Detail")]
+        public IActionResult Index(int id)
+        {
+            return View("Details", id);
+        }
     }
 }
